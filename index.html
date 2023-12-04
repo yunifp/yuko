@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- primary meta tags -->
+    <title>YUKO</title> 
+    <meta name="title" content="YUKO">
+    <meta name="description" content="get your own design">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./logo.png">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/preloader.png">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="./assets/images/preloader.png" width="50" height="50" alt="" class="img">
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./logo.png" alt="logo">
+                <p>Yuko</p>
+            </a>
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./logo.png" alt="logo">
+                        <p>Yuko</p>
+                    </a>
+                    <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link active">Home</a>
+                        <a href="about.html" class="navbar-link">about me</a>
+                        <a href="#service" class="navbar-link">service</a>
+                        <a href="portfolio.html" class="navbar-link">portfolio</a>
+                        <a href="#contact" class="navbar-link">contact me</a>
+                    </li>
+                </ul>
+
+                <div class="header-action">
+                    <a href="#" class="login-btn">Login</a>
+                    <a href="#" class="btn btn-secondary">sign Up</a>
+                </div>
+            </nav>
+
+            <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+
+    <!-- main -->
+
+    <main>
+        <article>
+            <!-- hero -->
+            <section class="section hero has-bg-image" aria-label="hero"
+                style="background-image: url('./assets/images//hero-bg.jpg');">
+                <div class="container">
+
+                    <div class="hero-content">
+                        <p class="hero-subtitle">
+                            Break The Horizon <img src="./assets/images/Brain.svg" alt="brain icon" width="40"
+                                height="40" class="img">
+                        </p>
+                        <h1 class="h1 title hero-title">
+                            let your imagination scratch the canvas
+                        </h1>
+                        <p class="hero-text">
+                            Get more customers and expand your business reach with a stunning logo
+                        </p>
+                        <div class="wrapper">
+                            <a href="#pricing" class="btn btn-primary">
+                                <span class="span">
+                                    Get your design
+                                </span>
+                                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                            </a>
+                            <button class="hero-btn">
+                                <div class="btn-img">
+                                    <img src="./assets/images/who-is.png" alt="who is" width="100" height="100"
+                                        class="img-cover">
+                                    <ion-icon name="arrow-redo" aria-hidden="true"></ion-icon>
+                                </div>
+                                <a href="about.html">
+                                    <p class="text">Who is yuko?</p>
+                                </a>
+
+                            </button>
+                        </div>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="./assets/images/banner.png" alt="hero banner" width="631" height="735" class="w-100">
+                    </figure>
+
+                </div>
+            </section>
+
+            <!-- service -->
+            <section class="section service" aria-label="service" id="service">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <p class="section-subtitle">
+                            What We Serve
+                        </p>
+                        <h2 class="h2 title section-title">
+                            Top Services For You
+                        </h2>
+                        <p class="section-text">
+                            Work with the world’s top creative talent.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-logo.png" width="60" height="60" loading="lazy"
+                                alt="icon">
+                        </div>
+                        <h3 class="h3 title card-title">logo design</h3>
+                        <p class="card-text">
+                            Attract customers with an attractive company logo design.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-jersey.png" width="60" height="60" loading="lazy"
+                                alt="icon">
+                        </div>
+                        <h3 class="h3 title card-title">jersey design</h3>
+                        <p class="card-text">
+                            Make your team look attractive with an extraordinary jersey design.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/service-banner.png" width="60" height="60" loading="lazy"
+                                alt="icon">
+                        </div>
+                        <h3 class="h3 title card-title">banner design</h3>
+                        <p class="card-text">
+                            Liven up your event with amazing banner designs.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- pricing -->
+            <section class="section price" aria-label="pricing" id="pricing">
+                <div class="container">
+                    <p class="section-subtitle">Our pricing</p>
+                    <h2 class="h2 title section-title">Get Your Design</h2>
+                    <ul class="price-list">
+                        <li>
+                            <div class="price-card">
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                                    <img src="./assets/images/price-logo.png" loading="lazy" width="600" height="650"
+                                        alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                                    <span class="card-price"><span>From</span>$5</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="Dlogo.html" class="card-title">Custom Logo Design</a>
+                                    </h3>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="checkbox-outline"></ion-icon>
+                                            79
+                                        </span>
+                                        <p class="rating-text">Project Done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="price-card">
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                                    <img src="./assets/images/price-jersey.png" loading="lazy" width="600" height="650"
+                                        alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                                    <span class="card-price"><span>From</span>$10</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="Djersey.html" class="card-title">Custom Jersey Design</a>
+                                    </h3>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="checkbox-outline"></ion-icon>
+                                            10
+                                        </span>
+                                        <p class="rating-text">Project done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="price-card">
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                                    <img src="./assets/images/price-banner.png" loading="lazy" width="600" height="650"
+                                        alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                                    <span class="card-price"><span>From</span>$7</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="Dbanner.html" class="card-title">Custom Banner Design</a>
+                                    </h3>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="checkbox-outline"></ion-icon>
+                                            32
+                                        </span>
+                                        <p class="rating-text">Project done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="price-card">
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                                    <img src="./assets/images/price-ui.png" loading="lazy" width="600" height="650"
+                                        alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                                    <span class="card-price"><span>From</span>$25</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="Dui.html" class="card-title">Custom UI/UX Design</a>
+                                    </h3>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="checkbox-outline"></ion-icon>
+                                            20
+                                        </span>
+                                        <p class="rating-text">Project done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="price-card">
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                                    <img src="./assets/images/price-3d.png" loading="lazy" width="600" height="650"
+                                        alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                                    <span class="card-price"><span>From</span>$15</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="D3d.html" class="card-title">Custom 3D Design</a>
+                                    </h3>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="checkbox-outline"></ion-icon>
+                                            11
+                                        </span>
+                                        <p class="rating-text">Project done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="price-card">
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                                    <img src="./assets/images/price-merch.png" loading="lazy" width="600" height="650"
+                                        alt="Enjoy the Beauty of the del Pincio" class="img-cover">
+                                    <span class="card-price"><span>From</span>$10</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="Dmerch.html" class="card-title">Custom merchandise Design</a>
+                                    </h3>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="checkbox-outline"></ion-icon>
+                                            8
+                                        </span>
+                                        <p class="rating-text">Project done</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Latest Project -->
+            <section class="section gallery" aria-level="gallery">
+                <div class="container">
+                    <p class="section-subtitle">
+                        Latest Project
+                    </p>
+                    <h2 class="h2 title section-title">
+                        Our Latest Projects
+                    </h2>
+
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <a href="portfolio.html">
+                                <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                    <img src="./assets/images/F/lat (1).jpg" width="700" height="925" loading="lazy"
+                                        alt="latest project" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="portfolio.html">
+                                <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                    <img src="./assets/images/F/lat (2).png" width="700" height="925" loading="lazy"
+                                        alt="latest project" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="portfolio.html">
+                                <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                    <img src="./assets/images/F/port12.png" width="700" height="925" loading="lazy"
+                                        alt="latest project" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="portfolio.html">
+                                <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                    <img src="./assets/images/F/lat (4).png" width="700" height="925" loading="lazy"
+                                        alt="latest project" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+                        
+                        <li class="gallery-item">
+                            <a href="portfolio.html">
+                                <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                    <img src="./assets/images/F/lat (5).png" width="700" height="925" loading="lazy"
+                                        alt="latest project" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="gallery-item">
+                            <a href="portfolio.html">
+                                <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                    <img src="./assets/images/F/lat (6).png" width="700" height="925" loading="lazy"
+                                        alt="latest project" class="img-cover">
+                                </figure>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <a href="portfolio.html" class="btn btn-primary">See our portfolio</a>
+                </div>
+            </section>
+
+            <!-- join membership -->
+            <section class="section cta" aria-label="contact-me" id="contact">
+                <div class="container">
+                    <div class="cta-card has-bg-image" style="background-image: url('./assets/images/cta-bg.jpg');">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        <span id="msg">Please send me message</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <img src="./logo.png" alt="logo">
+                                <p>Yuko</p>
+                            </a>
+                            <p class="footer-text">
+                                We always make our customer
+                                happy by providing as many
+                                choices as possible
+                            </p>
+                            <ul class="social-list">
+                                <li>
+                                    <a href="https://www.instagram.com/1_darren.armani/" class="social-link">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-list-title">
+                                About
+                            </li>
+
+                            <li>
+                                <a href="about.html" class="footer-link">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="index.html" class="footer-link">Features</a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li class="footer-list-title">
+                                Company
+                            </li>
+
+                            <li>
+                                <a href="about.html" class="footer-link">Why Company</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact" class="footer-link">Partner With Us</a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li class="footer-list-title">
+                                Support
+                            </li>
+
+                            <li>
+                                <a href="#contact" class="footer-link">Feedback</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact" class="footer-link">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p class="copyright">Copyright 2023. Made by <a
+                                href="https://www.instagram.com/1_darren.armani/"
+                                class="copyright-link">yunifputrapradeka</a>
+                        </p>
+
+                        <ul class="footer-bottom-list">
+                            <li>
+                                <a href="#" class="footer-bottom-link">Terms and Condition</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-bottom-link">Privacy adn Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <!-- custom js link -->
+    <script src="./assets/js/script.js"></script>
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

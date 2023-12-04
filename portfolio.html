@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- primary meta tags -->
+        <title>YUKO</title>
+        <meta name="title" content="YUKO">
+        <meta name="description" content="get your own design">
+    
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./logo.png">
+    
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+        <!-- custom css link -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+        <!-- preload images -->
+        <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+        <link rel="preload" as="image" href="./assets/images/preloader.png">
+    </head>
+<body>
+     <!-- preloader -->
+     <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="./assets/images/preloader.png" width="50" height="50" alt="" class="img">
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./logo.png" alt="logo">
+                <p>Yuko</p>
+            </a>
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./logo.png" alt="logo">
+                        <p>Yuko</p>
+                    </a>
+                    <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link ">Home</a>
+                        <a href="about.html" class="navbar-link">about me</a>
+                        <a href="#" class="navbar-link active">portfolio</a>
+                    </li>
+                </ul>
+
+                <div class="header-action">
+                    <a href="#" class="login-btn">Login</a>
+                    <a href="#" class="btn btn-secondary">sign Up</a>
+                </div>
+            </nav>
+
+            <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <article>
+            <section class="section gallery" aria-level="gallery">
+                <div class="container">
+                    <p class="section-subtitle">
+                        Portfolio
+                    </p>
+                    <h2 class="h2 title section-title">
+                        Our Portfolio
+                    </h2>
+
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port1.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port2.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port3.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port4.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port5.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port6.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port10.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port7.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port8.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port9.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port11.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port12.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+
+
+
+
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port13.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port14.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port15.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port16.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port17.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port18.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port19.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port20.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port21.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port22.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port23.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port24.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port25.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port26.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port27.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port28.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port29.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port30.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port31.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port32.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port33.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port34.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port35.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port36.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port37.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port38.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/port39.jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port40.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port41.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/port42.png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/lat (1).jpg" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/lat (2).png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                                <img src="./assets/images/F/lat (3).png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/lat (4).png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/lat (5).png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                                <img src="./assets/images/F/lat (6).png" width="700" height="925" loading="lazy" alt="latest project" class="img-cover">
+                            </figure>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <img src="./logo.png" alt="logo">
+                                <p>Yuko</p>
+                            </a>
+                            <p class="footer-text">
+                                We always make our customer
+                                happy by providing as many
+                                choices as possible
+                            </p>
+                            <ul class="social-list">
+                                <li>
+                                    <a href="https://www.instagram.com/1_darren.armani/" class="social-link">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-list-title">
+                                About
+                            </li>
+
+                            <li>
+                                <a href="about.html" class="footer-link">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="index.html" class="footer-link">Features</a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li class="footer-list-title">
+                                Company
+                            </li>
+
+                            <li>
+                                <a href="about.html" class="footer-link">Why Company</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact" class="footer-link">Partner With Us</a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li class="footer-list-title">
+                                Support
+                            </li>
+
+                            <li>
+                                <a href="#contact" class="footer-link">Feedback</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact" class="footer-link">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p class="copyright">Copyright 2023. Made by <a
+                                href="https://www.instagram.com/1_darren.armani/"
+                                class="copyright-link">yunifputrapradeka</a>
+                        </p>
+
+                        <ul class="footer-bottom-list">
+                            <li>
+                                <a href="#" class="footer-bottom-link">Terms and Condition</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-bottom-link">Privacy adn Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </article>
+    </main>
+     <!-- custom js link -->
+     <script src="./assets/js/script.js"></script>
+     <!-- ionicon link -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
