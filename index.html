@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- primary meta tags -->
-    <title>YUKO</title> 
+    <title>YUKO</title>
     <meta name="title" content="YUKO">
     <meta name="description" content="get your own design">
 
@@ -352,7 +352,7 @@
                                 </figure>
                             </a>
                         </li>
-                        
+
                         <li class="gallery-item">
                             <a href="portfolio.html">
                                 <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
@@ -369,7 +369,7 @@
                                 </figure>
                             </a>
                         </li>
-                        
+
                     </ul>
                     <a href="portfolio.html" class="btn btn-primary">See our portfolio</a>
                 </div>
@@ -385,7 +385,7 @@
                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
-                        <span id="msg">Please send me message</span>
+                        <span id="msg"></span>
                     </div>
                 </div>
             </section>
@@ -493,6 +493,25 @@
     <!-- ionicon link -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- send message to google sheet -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyf3tMsGsh5k_GiIf2JYBOJTv26hYUZUKObuZnDxPFAOupumtOKQgHNNC7xal6gFKqlaw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML =  ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 
 </html>

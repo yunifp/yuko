@@ -914,6 +914,11 @@ form input, form textarea{
   margin-block-start: 20px;
 }
 
+.cta span{
+  color: var(--text-red-color);
+  display: block;
+}
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
